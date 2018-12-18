@@ -5,7 +5,7 @@
 #include "list.h"
 #include "destination.h"
 
-#define PATH "data/mainDatabase.nymal"
+#define PATH "C:\\Users\\javog\\Desktop\\Trip-Organizer-master\\ejercicio2---Debugging\\Trip-Organizer-master\\data\\mainDatabase.nymal"
 
 int main() {
 	int option;
