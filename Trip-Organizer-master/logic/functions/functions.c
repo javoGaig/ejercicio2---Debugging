@@ -11,6 +11,10 @@ void showAllDestinations(List *l) {
 		printSortMenu();
 
 		option = askUserForOption();
+        if (option < 1 || option > MAX_SORTING) {
+            printOptionError();
+        }
+
 	} while (option < 1 || option > MAX_SORTING);
 
 	option -= 1;
